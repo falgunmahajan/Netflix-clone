@@ -1,0 +1,169 @@
+body{
+    background-color: black;
+    width:100vw;
+}
+.moviesrow
+{
+    
+    height:100%;
+    /* width:5000px; */
+    display:flex;
+}
+.moviesDivision
+{
+    height:230px;
+}
+/* .image-item
+{
+        position:relative;
+        height:150px;
+        width:230px;
+} */
+.button{
+    width:95vw
+}
+.trailerImg
+{
+    /* pointer-events: none; */
+    z-index:5;
+    transition:transform .35s ease-in;
+    transform:scale(1.1,1.3); 
+    
+}
+
+/* .trailerImg:hover{
+    transform:scale(1.4,1.5);
+   
+} */
+/* .owl-stage{
+    margin:50px;
+} */
+/* .owl-item{
+    transition:transform .35s ease-in;
+} */
+/* .owl-item:hover{
+    z-index:1000;
+    transform:scale(1.4,1.5);
+} */
+
+/* .image-item{
+    width: 100%;
+    height: 100%;
+} */
+.movieTrailer
+{
+    width:100%;
+    /* height:190px; */
+    overflow: hidden;
+    
+}
+.imgTrailer
+{
+    transform:scale(1.7)
+}
+.movieInfo
+{
+
+    z-index:50;
+    width:230px;
+}
+.navbar
+{
+    z-index:2;
+}
+.bannerContainer{
+    height:85vh;
+    width:100vw;
+    overflow: hidden;
+    margin-bottom:0;
+}
+.bannerVideo{
+    pointer-events: none;
+    height: 100%;
+    transform:scale(1.3);
+}
+.movieinfo{
+    color:white;
+    position:absolute;
+    top:250px;
+    left:50px;
+    z-index: 1;
+}
+.infobtn{
+    background-color: #0000006e;
+}
+.genre,.time{
+    font-size:10px;
+}
+.information{
+    z-index:10;
+    left:25%;
+    right:25%;
+    top:2%;
+    height:95vh;
+}
+.trailer{
+    /* border:2px solid red; */
+    height:70vh;
+    overflow: hidden;
+    /* transform:scale(1.5) */
+}
+.movievideo{
+    height:70vh;
+}
+.trailervideo
+{
+    transform:scale(1.5)   
+}
+.info{
+   
+    height:30vh
+}
+.closeicon{
+    position:absolute;
+    top:2%;
+    right:5%;
+    z-index:4;
+}
+.moviedetails{
+    color:white;
+    position:absolute;
+    top:auto;
+    bottom:40vh;
+    left:50px;
+    z-index: 5;
+}
+.buttoninfo{
+    width:170%
+}
+/* svg{
+    pointer-events: none;
+} */
+.owl-carousel .nav-button
+{
+    color:white;
+    position :absolute;
+    top:20%
+}
+.owl-prev
+{
+    left:-20px;
+}
+.owl-next
+{
+    right: -10px;
+}
+.trailerVolume
+{
+    position:absolute;
+    top: 150px;
+    right:5px;
+    z-index:4;
+}
+.account
+{
+    top:12%;
+    right:3%;
+    z-index:50
+}
+

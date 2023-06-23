@@ -1,0 +1,12 @@
+.row1
+{
+    min-height:80vh;
+}
+
+.content{
+    font-size:14px;
+}
+.gradient
+{
+    background-image: linear-gradient(to right, blue, purple);
+}

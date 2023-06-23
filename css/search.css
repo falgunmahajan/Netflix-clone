@@ -1,0 +1,14 @@
+.moviecontainer{
+    margin-top:150px;
+    margin-left: 60px;
+    margin-bottom:80px;
+}
+.image-item{
+    width:250px;
+    height:132px;
+}
+.movies-division
+{
+    min-height:80vh;
+    padding-left:50px;
+}

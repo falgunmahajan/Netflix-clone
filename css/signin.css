@@ -1,0 +1,10 @@
+.box
+{
+    background-color: #00000094;
+}
+input[type="text"],[type="password"]{
+    background-color:grey;
+}
+.form-control::placeholder{
+   color:white;
+}
